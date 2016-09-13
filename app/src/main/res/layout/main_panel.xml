@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#de1320"
+    android:gravity="top|center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--**23** basically added ImageView with the image robbit1 I
+   think working with graphics helps create better visual understanding.
+   also changed the background with color picker (see video) -->
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="matrix"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/robbit1" />
+
+</LinearLayout>
